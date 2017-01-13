@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'hello@example.com',
-        'name' => 'Example',
+        'address' => env('MAIL_USERNAME', 'no-reply@monoserv.tangentroute.com'),
+        'name' => env('MAIL_FROM', 'Monodzukuri Server'),
     ],
 
     /*

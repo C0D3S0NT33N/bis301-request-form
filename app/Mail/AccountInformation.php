@@ -28,6 +28,7 @@ class AccountInformation extends Mailable
      */
     public function build()
     {
-        return $this->view('emails/account_info');
+        return $this->subject('BIS-301 Hosting Account Information')
+                    ->view('emails/account_info');
     }
 }
