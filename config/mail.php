@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_USERNAME', 'no-reply@monoserv.tangentroute.com'),
-        'name' => env('MAIL_FROM', 'Monodzukuri Server'),
+        'name' => env('MAIL_FROM', 'TNI Student Web Hosting'),
     ],
 
     /*
