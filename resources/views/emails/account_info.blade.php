@@ -212,6 +212,7 @@
                                         <li><b>PHP 5.6.25</b> <small>(FastCGI)</small></li>
                                         <li><b>MariaDB 5.5.50</b> <small>(MySQL replacement)</small></li>
                                     </ul>
+                                    The server, domains and sub-domain under st.tni.ac.th can accessible via the institute network only.
                                 </td>
                             </tr>
                         </table>
@@ -235,10 +236,10 @@
                         <!-- /// Title -->
 
                         <!-- / Paragraph -->
-                        <table class="container paragraph-block p-block"" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <table class="container paragraph-block p-block" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                     <td align="center" valign="top">
-                        <table class="container border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
+                        <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
                 <tr>
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 25px; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         Team Members
@@ -284,10 +285,10 @@
 <!-- /// Title -->
 
 <!-- / Paragraph -->
-<table class="container paragraph-block p-block"" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table class="container paragraph-block p-block" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
     <td align="center" valign="top">
-        <table class="container border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
+        <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
 <tr>
     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 25px; font-size: 16px; line-height: 27px; color: #777;" align="left">
         <a href="https://bis301-yourwebsite.st.tni.ac.th"><b>https://bis301-yourwebsite.st.tni.ac.th</b></a>
@@ -314,10 +315,10 @@
 <!-- /// Title -->
 
 <!-- / Paragraph -->
-<table class="container paragraph-block p-block"" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table class="container paragraph-block p-block" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
     <td align="center" valign="top">
-        <table class="container border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
+        <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
 <tr>
     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
         <ul>
@@ -392,7 +393,7 @@
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         <ul>
                             <li>DB Host: <b>st.tni.ac.th</b></li>
-                            <li>DB Name: <b>accname_web</b></a></li>
+                            <li>DB Name: <b>accname_web</b></li>
                             <li>DB User: <b>accname_web</b></li>
                             <li>DB Pass: <b>asdfjkl;</b></li>
                         </ul>
@@ -430,7 +431,7 @@
 
                 <tr>
                     <td class="cta-block__content" style="padding: 20px 0 27px 0; font-size: 16px; line-height: 27px; color: #969696; text-align: center;">
-                        Visit <a href="http://st.tni.ac.th">http://st.tni.ac.th</a> then click on <b>Contact Support</b> button.<br>
+                        Visit <a href="https://st.tni.ac.th">https://st.tni.ac.th</a> then click on <b>Contact Support</b> button.<br>
                         Please note that support team can assist you only deployment issues and server issues.
                     </td>
                 </tr>
@@ -440,7 +441,7 @@
                         <table class="container" border="0" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td class="cta-block__button" width="230" align="center" style="">
-                                    <a href="http://st.tni.ac.th" style="border: 3px solid #eeeeee; color: #969696; text-decoration: none; padding: 15px 30px; text-transform: uppercase; display: block; text-align: center; font-size: 16px;">
+                                    <a href="https://st.tni.ac.th" style="border: 3px solid #eeeeee; color: #969696; text-decoration: none; padding: 15px 30px; text-transform: uppercase; display: block; text-align: center; font-size: 16px;">
                                         Contact Support
                                     </a>
                                 </td>
@@ -482,7 +483,7 @@
                 </tr>
 
                 <tr>
-                    <td style="color: #d5d5d5; text-align: center; font-size: 15px; padding: 10px 0 60px 0; line-height: 22px;">Copyright &copy; 2016 <a href="http://st.tni.ac.th" target="_blank" style="text-decoration: none; border-bottom: 1px solid #d5d5d5; color: #d5d5d5;">TNI Monodzukuri Project</a>.</td>
+                    <td style="color: #d5d5d5; text-align: center; font-size: 15px; padding: 10px 0 60px 0; line-height: 22px;">Copyright &copy; 2016 <a href="https://st.tni.ac.th" target="_blank" style="text-decoration: none; border-bottom: 1px solid #d5d5d5; color: #d5d5d5;">TNI Monodzukuri Project</a>.</td>
                 </tr>
             </table>
         </td>

@@ -6,14 +6,24 @@ use App\Mail\AccountInformation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Collection;
+use DB;
 
 class HostingAccountController extends Controller
 {
+
     public function sendAccountInfo(Request $request){
 
-        $user = collect([
-            ['name' => 'Natthasak', 'email' => 've.natthasak_st@tni.ac.th']
-        ]);
+        $accounts = DB::table('user_data')
+                      ->join('groups', 'user_data.id', '=', 'groups.user_id')
+                      ->get();
+
+        foreach($accounts as $account){
+            $user = collect([
+                ['name' => $account->name, 'email' => $account->email]
+            ]);
+            var_dump($account);
+            exit();
+        }
 
         Mail::to($user)->send(new AccountInformation());
     }

@@ -11,14 +11,16 @@ class AccountInformation extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $accounts;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($account)
     {
-        //
+        $this->accounts = $account;
     }
 
     /**
