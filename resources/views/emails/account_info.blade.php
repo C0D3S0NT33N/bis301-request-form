@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>TNI Monodzukuri Hosting</title>
     <style type="text/css">
@@ -175,7 +175,7 @@
 </head>
 
 <body style="padding: 0; margin: 0;" bgcolor="#eeeeee">
-<span style="color:transparent !important; overflow:hidden !important; display:none !important; line-height:0px !important; height:0 !important; opacity:0 !important; visibility:hidden !important; width:0 !important; mso-hide:all;">Web Hosting Account Information for Ohh! Project - bis301-website.st.tni.ac.th - accname.</span>
+<span style="color:transparent !important; overflow:hidden !important; display:none !important; line-height:0px !important; height:0 !important; opacity:0 !important; visibility:hidden !important; width:0 !important; mso-hide:all;">Web Hosting Account Information for Ohh! Project - bis301-website.st.tni.ac.th - {{ $account->unixuser }}.</span>
 
 <!-- / Full width container -->
 <table class="full-width-container" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" bgcolor="#eeeeee" style="width: 100%; height: 100%; padding: 30px 0 30px 0; ">
@@ -204,7 +204,7 @@
                             <tr>
                                 <td class="hero-subheader__content" style="font-size: 16px; line-height: 27px; color: white;" align="left">
                                     TNI Monodzukuri Hosting provides you an elegant web server environments. <br>
-                                    The environment includes suitable web server softwares for your project.
+                                    The environment includes suitable web server software for your project.
                                     <ul>
                                         <li><b>CentOS 7</b> <small>(Community Enterprise Linux)</small></li>
                                         <li><b>Apache 2.4.6</b> <small>(HTTP Web Server)</small></li>
@@ -212,7 +212,8 @@
                                         <li><b>PHP 5.6.25</b> <small>(FastCGI)</small></li>
                                         <li><b>MariaDB 5.5.50</b> <small>(MySQL replacement)</small></li>
                                     </ul>
-                                    The server, domains and sub-domain under <a href="https://st.tni.ac.th">st.tni.ac.th</a> can accessible via the institute network only.
+                                    The server, domains and sub-domain under <a href="https://st.tni.ac.th">st.tni.ac.th</a> can accessible via the institute network only.<br>
+                                    According to implementation of HTTPS in local environment (offline mode), You will get "Not Secure" warning. This because the certification require public access to verified. But don't worry, Your data also be encrypted.
                                 </td>
                             </tr>
                         </table>
