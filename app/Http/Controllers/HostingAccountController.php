@@ -30,7 +30,8 @@ class HostingAccountController extends Controller
             ]);
 
             Mail::to($user)->send(new AccountInformation($account, $members));
-            if($i++>=2) break;
+            if($i++>=8) break;
+            sleep(10);
         }
     }
 }
