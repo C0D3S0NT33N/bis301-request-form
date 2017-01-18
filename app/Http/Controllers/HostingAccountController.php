@@ -20,7 +20,8 @@ class HostingAccountController extends Controller
         foreach($accounts as $account){
 
             $members = DB::table('user_data')
-                         ->where('group_id', $account->group_id);
+                         ->where('group_id', $account->group_id)
+                         ->get();
 
             $user = collect([
                 //['name' => $account->student_name, 'email' => $account->student_email]
