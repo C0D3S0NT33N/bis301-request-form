@@ -17,6 +17,7 @@ class HostingAccountController extends Controller
                       ->join('groups', 'user_data.group_id', '=', 'groups.group_id')
                       ->get();
 
+        $i=0;
         foreach($accounts as $account){
 
             $members = DB::table('user_data')
@@ -29,7 +30,7 @@ class HostingAccountController extends Controller
             ]);
 
             Mail::to($user)->send(new AccountInformation($account, $members));
-            exit();
+            if($i++>=2) break;
         }
     }
 }
