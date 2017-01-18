@@ -244,9 +244,9 @@
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 25px; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         Team Members
                         <ul style="margin-top: 0; margin-bottom: 0px;">
-                            <li>John Smith</li>
-                            <li>Lorem Ipsum</li>
-                            <li>Bill Peter</li>
+                            @foreach($members as $member)
+                            <li>{{ $member->student_name }}</li>
+                            @endforeach
                         </ul>
                     </td>
                 </tr>
