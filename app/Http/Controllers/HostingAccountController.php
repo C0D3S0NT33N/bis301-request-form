@@ -18,9 +18,7 @@ class HostingAccountController extends Controller
                       ->get();
 
         foreach($accounts as $account){
-            $user = collect([
-                ['name' => $account->name, 'email' => $account->email]
-            ]);
+            
             var_dump($account);
             exit();
         }

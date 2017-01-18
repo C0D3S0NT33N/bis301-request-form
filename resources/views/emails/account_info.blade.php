@@ -392,7 +392,7 @@
                 <tr>
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         <ul>
-                            <li>DB Host: <b>st.tni.ac.th</b></li>
+                            <li>DB Host: <b>localhost</b> <small>or</small> <b>st.tni.ac.th</b></li>
                             <li>DB Name: <b>accname_web</b></li>
                             <li>DB User: <b>accname_web</b></li>
                             <li>DB Pass: <b>asdfjkl;</b></li>
