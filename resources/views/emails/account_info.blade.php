@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>TNI Student Web Hosting</title>
+    <title>TNI Monodzukuri Hosting</title>
     <style type="text/css">
         /* ----- Custom Font Import ----- */
         @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin,latin-ext);
@@ -189,7 +189,7 @@
                         <table class="container header" border="0" cellpadding="0" cellspacing="0" width="700" style="background: #0f5f77; padding-left: 30px; color: #969696;">
                             <tr>
                                 <td style="padding: 30px 0 30px 0;" align="left">
-                                    <a class="header-text" href="#" style="text-decoration: none;">TNI Student Web Hosting</a>
+                                    <a class="header-text" href="#" style="text-decoration: none;">TNI Monodzukuri Web Hosting</a>
                                 </td>
                             </tr>
                         </table>
@@ -203,14 +203,14 @@
 
                             <tr>
                                 <td class="hero-subheader__content" style="font-size: 16px; line-height: 27px; color: white;" align="left">
-                                    TNI Student Web Hosting provides you an elegant web server environments. <br>
+                                    TNI Monodzukuri Hosting provides you an elegant web server environments. <br>
                                     The environment includes suitable web server softwares for your project.
                                     <ul>
                                         <li><b>CentOS 7</b> <small>(Community Enterprise Linux)</small></li>
-                                        <li><b>Apache 2.4</b> <small>(HTTP Web Server)</small></li>
-                                        <li><b>Nginx</b> <small>(Reverse Proxy)</small></li>
-                                        <li><b>PHP 5.6</b> <small>(FastCGI)</small></li>
-                                        <li><b>MariaDB 5.5</b> <small>(MySQL replacement)</small></li>
+                                        <li><b>Apache 2.4.6</b> <small>(HTTP Web Server)</small></li>
+                                        <li><b>Nginx 1.10.1</b> <small>(Reverse Proxy)</small></li>
+                                        <li><b>PHP 5.6.25</b> <small>(FastCGI)</small></li>
+                                        <li><b>MariaDB 5.5.50</b> <small>(MySQL replacement)</small></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -290,7 +290,7 @@
         <table class="container border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
 <tr>
     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 25px; font-size: 16px; line-height: 27px; color: #777;" align="left">
-        <a href="http://bis301-yourwebsite.st.tni.ac.th"><b>bis301-yourwebsite.st.tni.ac.th</b></a>
+        <a href="https://bis301-yourwebsite.st.tni.ac.th"><b>https://bis301-yourwebsite.st.tni.ac.th</b></a>
     </td>
 </tr>
 </table>
@@ -391,10 +391,10 @@
                 <tr>
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         <ul>
-                            <li>Database Host: <b>st.tni.ac.th</b></li>
-                            <li>Database Name: <b>accname_web</b></a></li>
-                            <li>Database User: <b>accname_web</b></li>
-                            <li>Database Pass: <b>asdfjkl;</b></li>
+                            <li>DB Host: <b>st.tni.ac.th</b></li>
+                            <li>DB Name: <b>accname_web</b></a></li>
+                            <li>DB User: <b>accname_web</b></li>
+                            <li>DB Pass: <b>asdfjkl;</b></li>
                         </ul>
                     </td>
                 </tr>
@@ -477,7 +477,7 @@
             <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" align="center" style="border-top: 1px solid #eeeeee; width: 620px;">
                 <tr>
                     <td style="text-align: center; padding: 50px 0 10px 0;">
-                        <a href="#" style="font-size: 28px; text-decoration: none; color: #d5d5d5;">TNI Student Web Hosting</a>
+                        <a href="#" style="font-size: 28px; text-decoration: none; color: #d5d5d5;">IT Monodzukuri Team</a>
                     </td>
                 </tr>
 
