@@ -212,7 +212,7 @@
                                         <li><b>PHP 5.6.25</b> <small>(FastCGI)</small></li>
                                         <li><b>MariaDB 5.5.50</b> <small>(MySQL replacement)</small></li>
                                     </ul>
-                                    The server, domains and sub-domain under <a href="https://st.tni.ac.th">st.tni.ac.th</a> can accessible via the institute network only.<br>
+                                    The server, domains and sub-domain under <a href="https://st.tni.ac.th">st.tni.ac.th</a> can accessible via the institute network only.<br><br>
                                     According to implementation of HTTPS in local environment (offline mode), You will get "Not Secure" warning. This because the certification require public access to verified. But don't worry, Your data also be encrypted.
                                 </td>
                             </tr>

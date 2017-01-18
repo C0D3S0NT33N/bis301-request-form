@@ -25,12 +25,11 @@ class HostingAccountController extends Controller
                          ->get();
 
             $user = collect([
-                ['name' => $account->student_name, 'email' => 've.natthasak_st@tni.ac.th']
+                ['name' => $account->student_name, 'email' => $account->student_email]
             ]);
 
             Mail::to($user)->send(new AccountInformation($account, $members));
             exit();
-            if($i++>=8) break;
             sleep(10);
         }
     }
