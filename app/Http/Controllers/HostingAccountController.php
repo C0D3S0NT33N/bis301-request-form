@@ -14,7 +14,7 @@ class HostingAccountController extends Controller
     public function sendAccountInfo(Request $request){
 
         $accounts = DB::table('user_data')
-                      ->join('groups', 'user_data.id', '=', 'groups.user_id')
+                      ->join('groups', 'user_data.group_id', '=', 'groups.group_id')
                       ->get();
 
         foreach($accounts as $account){
