@@ -224,10 +224,10 @@
                                 <td align="center" valign="top">
                                     <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
                                         <tr>
-                                            <td style="padding: 35px 0 0 0; font-size: 26px;" align="left">Team: Ohh! Project</td>
+                                            <td style="padding: 35px 0 0 0; font-size: 26px;" align="left">Team: {{ $account->group_name }}</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding-bottom: 18px; color: #555; font-size: 14px;">Project: Bangkok Metropolis Taxonomy</td>
+                                            <td style="padding-bottom: 18px; color: #555; font-size: 14px;">Project: {{ $account->project_name }}</td>
                                         </tr>
                                     </table>
                                 </td>
@@ -291,7 +291,7 @@
         <table class="container" border="0" cellpadding="0" cellspacing="0" width="620" style="width: 620px;">
 <tr>
     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 25px; font-size: 16px; line-height: 27px; color: #777;" align="left">
-        <a href="https://bis301-yourwebsite.st.tni.ac.th"><b>https://bis301-yourwebsite.st.tni.ac.th</b></a>
+        <a href="https://bis301-{{ $account->subdomain }}.st.tni.ac.th"><b>https://bis301-{{ $account->subdomain }}.st.tni.ac.th</b></a>
     </td>
 </tr>
 </table>
@@ -323,8 +323,8 @@
     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
         <ul>
             <li>URL: <b><a href="https://st.tni.ac.th:8083">https://st.tni.ac.th:8083</a></b></li>
-            <li>User: <b>AccName</b></li>
-            <li>Pass: <b>asdfjkl;</b></li>
+            <li>User: <b>{{ $account->unixuser }}</b></li>
+            <li>Pass: <b>{{ $account->password }}</b></li>
         </ul>
     </td>
 </tr>
@@ -358,8 +358,8 @@
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         <ul>
                             <li>Host: <b>sftp://st.tni.ac.th</b></li>
-                            <li>User: <b>AccName</b></li>
-                            <li>Pass: <b>asdfjkl;</b></li>
+                            <li>User: <b>{{ $account->unixuser }}</b></li>
+                            <li>Pass: <b>{{ $account->password }}</b></li>
                             <li>Port: <b>22</b></li>
                         </ul>
                     </td>
@@ -393,9 +393,9 @@
                     <td class="paragraph-block__content" style="background: #f0f0f0; padding: 25px 0 18px 0; font-size: 16px; line-height: 27px; color: #777;" align="left">
                         <ul>
                             <li>DB Host: <b>localhost</b> <small>or</small> <b>st.tni.ac.th</b></li>
-                            <li>DB Name: <b>accname_web</b></li>
-                            <li>DB User: <b>accname_web</b></li>
-                            <li>DB Pass: <b>asdfjkl;</b></li>
+                            <li>DB Name: <b>{{ $account->unixuser }}_web</b></li>
+                            <li>DB User: <b>{{ $account->unixuser }}_web</b></li>
+                            <li>DB Pass: <b>{{ $account->password }}</b></li>
                         </ul>
                     </td>
                 </tr>

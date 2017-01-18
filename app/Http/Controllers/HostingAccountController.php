@@ -18,11 +18,17 @@ class HostingAccountController extends Controller
                       ->get();
 
         foreach($accounts as $account){
-            
-            var_dump($account);
+
+            $members = DB::table('user_data')
+                         ->where('group_id', $account->group_id);
+
+            $user = collect([
+                //['name' => $account->student_name, 'email' => $account->student_email]
+                ['name' => $account->student_name, 'email' => 've.natthasak_st@tni.ac.th']
+            ]);
+
+            Mail::to($user)->send(new AccountInformation($account, $members));
             exit();
         }
-
-        Mail::to($user)->send(new AccountInformation());
     }
 }

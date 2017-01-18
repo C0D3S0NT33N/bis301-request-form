@@ -11,16 +11,19 @@ class AccountInformation extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $accounts;
+    public $account;
+    public $members;
 
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param $account
+     * @param $members
      */
-    public function __construct($account)
+    public function __construct($account, $members)
     {
-        $this->accounts = $account;
+        $this->account = $account;
+        $this->members = $members;
     }
 
     /**
@@ -31,6 +34,10 @@ class AccountInformation extends Mailable
     public function build()
     {
         return $this->subject('BIS-301 Hosting Account Information')
-                    ->view('emails/account_info');
+                    ->view('emails/account_info')
+                    ->with([
+                        'account' => $this->account,
+                        'members' => $this->members
+                    ]);
     }
 }
