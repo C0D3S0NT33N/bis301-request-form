@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Collection;
 use DB;
 
-class sendmail extends Command
+class Sendmail extends Command
 {
     /**
      * The name and signature of the console command.
